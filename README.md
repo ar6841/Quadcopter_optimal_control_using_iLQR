@@ -1,4 +1,4 @@
-# Optimal control of a drone using iterative Linear-Quadratic Regulator algorithm
+# Optimal control of a drone using the iterative Linear-Quadratic Regulator algorithm
 
 
 
