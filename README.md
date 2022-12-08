@@ -1,1 +1,0 @@
-# Quadcopter_control_using_iLQR
