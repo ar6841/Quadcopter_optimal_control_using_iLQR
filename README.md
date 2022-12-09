@@ -24,6 +24,10 @@ where $x$ is the horizontal and $y$ the vertical positions of the quadrotor and 
 
 The module ```quadrotor.py``` defines useful constants (mass, length, gravity, etc) and functions to simulate and animate the quadrotor as shown below.
 
+For a more thorough and detailed explaination of the equations refer to the report : https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/Drone_controller/Report.pdf
+[Report.pdf](https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/files/10197939/Report.pdf)
+
+
 ## Jupyter notebooks
 There are four simulations in total
 Each Jupyter notebook is a simulation of the quadrotor performing a different task.
