@@ -36,7 +36,7 @@ A simple LQR controller that ensures that the robot stays in place at a predefin
 
 ### Circular_trajectory_drone: following a trajectory using linearized dynamics
 
-A tracking controller (using an LQ design with linear approximations) to follow a circular trajectory.
+A tracking controller (using an LQ design with linear approximations) to follow a circular trajectory under wind disturbances.
 <br> 
 ![](https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/Circular.gif)
 
