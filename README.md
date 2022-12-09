@@ -46,22 +46,16 @@ In this case, there is no prescribed trajectory but we would like to compute a l
 
 Controller that makes the robot reach a vertical orientation $\theta = \frac{\pi}{2}$ at the location $x=3$ and $y=3$ at time $t=5$ starting from $z_0=0$. During the rest of the motion, the robot trys to stay close to the origin. It also trys to keep its control $u$ close to the control needed to keep the robot at rest.
 
-<br> 
-![](https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/Circular.gif)
+
+<br>![](https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/vertical.gif)
 
 ### Drone_flip : Drone doing a full flip
 
 Controller that makes the robot do a full flip, trying to reach the upside-down state $x=1.5$, $y=3$ and $\theta = \pi$ at $t=5$ and upright state $x=3$, $y=0$ and $\theta = 2\pi$ at $T=10$.
 
-<br>
-![](https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/flip.gif)
+<br>![](https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/flip.gif)
 
 ### Drone_controller_full: Combination of all the jupyter notebooks
 
 This is a combination off all notebooks for ease of use
 
-
-
-```python
-
-```
