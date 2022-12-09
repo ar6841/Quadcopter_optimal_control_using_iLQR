@@ -1,3 +1,4 @@
+# Optimal control of a drone using the iterative Linear-Quadratic Regulator algorithm
 ## The goal of this project is to control a 2D quadrotor to perform acrobatic moves.
 
 # 2D quadrotor
