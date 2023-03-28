@@ -12,9 +12,11 @@ This project requires only two libraries:
 
 The quadrotor is depicted in the following figure <br>
 
-<img src='outputs/quadrotor.png' width="300">
+<p align="center">
+  <img src='outputs/quadrotor.png' width="300">
+</p>
 
-<br> The quadrotor dynamics can be written as (assuming ideal conditions) <br>
+<br> The quadrotor dynamics can be written as (assuming ideal conditions): <br>
 
 $$ \dot{x}  =v_x $$
 
@@ -27,7 +29,6 @@ $$ m \dot{v}_y  =\left(u_1+u_2\right) \cos \theta-m g $$
 $$ \dot{\theta}  =\omega $$
 
 $$ I \dot{\omega}  =r\left(u_1-u_2\right)$$
-
 
 where $x$ is the horizontal and $y$ the vertical positions of the quadrotor and $\theta$ is its orientation with respect to the horizontal plane. $v_x$ and $v_y$ are the linear velocities and $\omega$ is the angular velocity of the robot. $u_1$ and $u_2$ are the forces produced by the rotors (our control inputs). $m$ is the quadrotor mass, $I$ its moment of inertia (a scalar), $r$ is the distance from the center of the robot frame to the propellers and $g$ is the gravity constant. To denote the entire state, we will write $z = [x, v_x, y, v_y, \theta, \omega]^T$ - we will also write $u = [u_1, u_2]^T$.
 
@@ -45,13 +46,21 @@ Each Jupyter notebook is a simulation of the quadrotor performing a different ta
 
 A simple LQR controller that ensures that the robot stays in place at a predefined position even when pushed around by random disturbances (e.g. due to the wind).
 <br> 
-![](https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/stable.gif)
+
+<p align="center">
+  <img src='https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/stable.gif'>
+</p>
+
 
 ### Circular_trajectory_drone: following a trajectory using linearized dynamics
 
 A tracking controller (using an LQ design with linear approximations) to follow a circular trajectory under wind disturbances.
 <br> 
-![](https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/Circular.gif)
+
+<p align="center">
+  <img src='https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/Circular.gif'>
+</p>
+
 
 ### Drone_vertical : Drone reaching a vertical orientation
 
@@ -59,14 +68,19 @@ In this case, there is no prescribed trajectory but we would like to compute a l
 
 Controller that makes the robot reach a vertical orientation $\theta = \frac{\pi}{2}$ at the location $x=3$ and $y=3$ at time $t=5$ starting from $z_0=0$. During the rest of the motion, the robot trys to stay close to the origin. It also trys to keep its control $u$ close to the control needed to keep the robot at rest.
 
+<p align="center">
+  <img src='https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/vertical.gif'>
+</p>
 
-<br>![](https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/vertical.gif)
 
 ### Drone_flip : Drone doing a full flip
 
 Controller that makes the robot do a full flip, trying to reach the upside-down state $x=1.5$, $y=3$ and $\theta = \pi$ at $t=5$ and upright state $x=3$, $y=0$ and $\theta = 2\pi$ at $T=10$.
 
-<br>![](https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/flip.gif)
+<p align="center">
+  <img src='https://github.com/ar6841/Quadcopter_optimal_control_using_iLQR/blob/main/outputs/flip.gif'>
+</p>
+
 
 ### Drone_controller_full: Combination of all the jupyter notebooks
 
