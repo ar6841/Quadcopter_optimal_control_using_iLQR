@@ -4,7 +4,9 @@
 # 2D quadrotor
 
 The quadrotor is depicted in the following figure <br>
+
 <img src='outputs/quadrotor.png' width="300">
+
 <br> The quadrotor dynamics can be written as (assuming ideal conditions) <br>
 
 $$ \dot{x}  =v_x $$
