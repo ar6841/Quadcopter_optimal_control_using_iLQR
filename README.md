@@ -1,6 +1,13 @@
 # Optimal control of a drone using the iterative Linear-Quadratic Regulator algorithm
 <br> The goal of this project is to control a quadrotor to perform acrobatic moves.
 
+# Dependencies
+
+This project requires only two libraries: 
+
+1) [NumPy](https://numpy.org/install/)
+2) [Matplotlib](https://matplotlib.org/stable/users/getting_started/)
+
 # 2D quadrotor
 
 The quadrotor is depicted in the following figure <br>
