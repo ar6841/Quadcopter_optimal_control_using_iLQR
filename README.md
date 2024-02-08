@@ -1,5 +1,5 @@
 # Optimal control of a drone using the iterative Linear-Quadratic Regulator algorithm
-<br> The goal of this project is to control a quadrotor to perform acrobatic moves. To simulate all the controllers, run Drone_controller_full.ipynb
+<br> The goal of this project is to control a quadrotor to perform a flip. To simulate all the controllers, run Drone_controller_full.ipynb
 
 # Dependencies
 
